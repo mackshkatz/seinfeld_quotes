@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const SubmitButton = ({ onClick }) => {
+const SubmitButton = () => {
   return (
-    <button onClick={onClick}>Login</button>
+    <Link to='/'>Login</Link>
   )
 }
 
